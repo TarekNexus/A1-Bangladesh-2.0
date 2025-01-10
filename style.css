@@ -38,6 +38,7 @@
     background-color: red;
    color: white;
    border: none;
+   transition: all ease-in 0.3s;
 }
 /* Navber close */
 /* Banner section start */
@@ -81,6 +82,7 @@ height: 201px;
 }
 .banner-description-btn:hover{
     background-color: red;
+    transition: all ease-in 0.3s;
 }
 .banner-image{
     margin: 80px 60px 80px 64px;
@@ -151,6 +153,7 @@ font-weight: 600;
 }
 .card-btn:hover{
     background-color: #0e006a;
+    transition: all ease-in 0.3s;
 }
 
 /* card-1 close */
@@ -193,6 +196,7 @@ font-weight: 600;
     }
     .card-btn-2:hover{
         background-color: #0e006a;
+        transition: all ease-in 0.3s;
     }
     /* card-2 close */
     /* card-3 start */
@@ -232,6 +236,7 @@ font-weight: 600;
         }
         .card-btn-3:hover{
             background-color: #0e006a;
+            transition: all ease-in 0.3s;
         }
         /* card-3 close */
 /* The-Vision-of-Future section close */
@@ -279,6 +284,7 @@ line-height: 24px;
 .news-section{
     width: 1280px;
     margin: 0 auto;
+    padding-bottom: 80px;
 }
 .recent-news-title{
 color: rgb(14, 14, 14);
@@ -351,5 +357,216 @@ margin-bottom: 12px;
 }
 .news-btn:hover{
     background-color: aqua;
+    transition: all ease-in 0.3s;
 }
 /* Recent-News section close */
+/* donate section start */
+.donate{
+width: 1280px;
+height: 464px;
+margin: 0 auto;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.donate-title{
+color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 24px;
+}
+.donate-sub-title{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+width: 1100px;
+margin: 0 auto;
+padding-bottom: 32px;
+
+}
+.donate-box{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.donate-box1{
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.donate-box1 h1{
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+
+}
+
+.donate-box2{
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+
+    
+}
+.donate-box2 h1{
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+
+}
+#amount{
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    width: 1051px;
+    height: 64px;
+    border: none;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 32px;
+}
+.donete-btn{
+    padding: 17px 34px 17px 34px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+.donete-btn:hover{
+    background-color: red;
+    transition: all ease-in 0.3s;
+}
+/* hover effect  donate card  */
+#hover-color-1:hover{
+
+    background-color: gray;
+    transition: all ease-in 0.3s;
+    
+  }
+  #hover-color-2:hover{
+      background-color: aquamarine;
+      transition: all ease-in 0.3s;
+  }
+  #hover-color-3:hover{
+      background-color: pink;
+      transition: all ease-in 0.3s;
+  }
+  #hover-color-4:hover{
+      background-color: crimson;
+      transition: all ease-in 0.3s;
+  }
+  /* hover effect  donate card close */
+  /* donate section close */
+  /* Subscribe-Newsletter section start */
+  .subscribe-newsletter{
+    width: 1280px;
+    height: 395px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    margin: 0 auto;
+    margin-top: 80px ;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  .newsletter-title{
+     color: rgb(14, 14, 14);
+     font-size: 40px;
+     font-weight: 700;
+     margin-bottom: 18px;
+
+  }
+.newsletter-sub-title{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+width: 622px;
+margin: 0 auto;
+padding-bottom: 24px;
+
+  }
+#newsletter-email{
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    width: 600px;
+    height: 55px;
+
+
+}
+#newsletter-submit{
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    border: none;
+    width: 150px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -4px;
+    margin-bottom: 24px;
+}
+#newsletter-submit:hover{
+    background-color: crimson;
+    transition: all ease-in 0.3s;
+}
+.newsletter-sub-title-2{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Subscribe-Newsletter section close */
+/* footer start */
+.footer-section{
+    width: 1920px;
+    height: 226px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 50px 160px 50px 160px;
+} 
+.footer-title{
+color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+padding-bottom: 32px;
+border-bottom:1px solid rgba(14, 14, 14, 0.1);
+}
+.footer-box{
+   
+    margin-top: 32px;
+}
+.icon{
+    padding: 0 18px;
+    margin-bottom: 30px;
+    
+}
+
+.footer{
+    width: 1122px;
+    margin: 0 auto;
+}
