@@ -31,6 +31,7 @@
     font-weight: 600;
     color: rgb(0, 106, 80);
     border: 1px solid rgb(0, 106, 80);
+    background-color: #f5f5f5;
 
 }
 .navber-btn:hover{
@@ -233,4 +234,44 @@ font-weight: 600;
             background-color: #0e006a;
         }
         /* card-3 close */
-        /* The-Vision-of-Future section close */
+/* The-Vision-of-Future section close */
+/* Quote-Section start */
+.Quote-Section{
+    width: 1280px;
+    height: 256px;
+    padding: 24px 24px 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background:#fff;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.quote-mark{
+    background-image: url("image/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 200px;
+    height: 200px;
+    position: absolute
+}
+.Quote-Section-speach{
+color: rgba(14, 14, 14, 0.8);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding-top: 28px;
+padding-bottom: 12px;
+}
+.Quote-Section-title{
+color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 4px;
+}
+.Quote-Section-sub-title{
+color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+/* Quote-Section close */
