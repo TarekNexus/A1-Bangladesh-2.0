@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fira Sans;
+}
+/* Navber start */
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 160px;
+    margin: 0 160px 20px 160px;
+    height: 100px;
+}
+.navber-title{
+    font-size: 32px;
+    font-weight: bold;
+    color:#0E0E0E;
+}
+.navber-btn{
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 106, 80);
+    background-color: white;
+    border: 1px solid rgb(0, 106, 80);
+
+}
+/* Navber close */
+/* Banner section start */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1280px;
+    height: 560px;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 100px 60px;
+    margin-bottom: 80px;
+}
+.banner-description-sub-title{
+color: rgba(14, 14, 14, 0.5);
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+.banner-description-title{
+color: rgb(14, 14, 14);
+font-size: 56px;
+font-weight: bold;
+margin-bottom: 24px;
+width: 622px;
+height: 201px;
+}
+.banner-description-btn{
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+
+}
+.banner-image{
+    margin: 80px 60px 80px 64px;
+}
+/* Banner section close */
